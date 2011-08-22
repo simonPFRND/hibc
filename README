@@ -1,0 +1,3 @@
+The functionality of the user interface is still limited. Setup and Extraction not supported yet.
+Test parameters and private key for the user simon can be found in the files "params.conf" and "simon.k"
+respectively.  
