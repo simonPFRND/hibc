@@ -1,12 +1,12 @@
 Name:                hibc
 Version:             0.1
-Description:         Identity Based Cryptography in Haskell
-License:             GPL
+Description:         Identity Based Cryptography for Haskell
+License:             GPL          
 Author:              Simon Pfreundschuh
-Maintainer:          s.pfreundschuh@googlemail.com
+Maintainer:          spf@informatik.uni-kiel.de
 Build-Type:          Simple
 Cabal-Version:       >=1.2
 
 Executable hibc
-  Main-is:           hibc.hs
-  Build-Depends:     base >= 3 && < 5, haskell98, random, bytestring, ghc-binary, cryptohash
+  Main-is:           hibc.lhs
+  Build-Depends:     base >= 3 && < 5, haskell98, bytestring, ghc-binary
